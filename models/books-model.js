@@ -10,4 +10,4 @@ const BooksSchema = new mongoose.Schema({
     timeseries: true
 }
 )
-module.exports = mongoose.model('book', BooksSchema)
+module.exports = mongoose.model('books', BooksSchema)
