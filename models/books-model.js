@@ -10,4 +10,5 @@ const BooksSchema = new mongoose.Schema({
     timeseries: true
 }
 )
-module.exports = mongoose.model('books', BooksSchema)
+const BooksModal= mongoose.model('books', BooksSchema)
+module.exports = BooksModal;
